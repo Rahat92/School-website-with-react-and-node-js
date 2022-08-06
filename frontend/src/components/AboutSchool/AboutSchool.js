@@ -4,7 +4,7 @@ const AboutSchool = () => {
     return (
         <div className='about_section'>
             <div className='section_left'>
-                <table border= '2px'>
+                <table cellSpacing= '5px' cellPadding= '15px' border= '2px'>
                     <thead style={{background:'violet'}}>
                         <tr>
                             <th colSpan= '4' style= {{textAlign:'center'}}> এক নজরে বিদ্যালয়ের পরিচিতি </th>
@@ -25,14 +25,20 @@ const AboutSchool = () => {
                         </tr> 
                         <tr>
                             <td>ওয়ার্ড নম্বর :</td>
-                            <td>১৯</td>
+                            <td style={{minWidth:'100px'}}>১৯</td>
                             <td>ইউনিয়ন/পৌরসভা/সিটি কর্পোরেশন :</td>
                             <td>সিটি করপোরেশন</td>
+                        </tr> 
+                        <tr>
+                            <td>পোস্ট অফিস :</td>
+                            <td>রংপুর</td>
+                            <td>পোস্ট কোড :</td>
+                            <td>৫৪০০</td>
                         </tr> 
                     </tbody>
                 </table>
             </div>
-            <div className='section_right'>
+            <div className='section_left'>
                 right side
             </div>
         </div>
