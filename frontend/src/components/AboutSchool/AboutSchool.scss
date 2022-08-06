@@ -1,0 +1,29 @@
+.about_section{
+    margin: 3rem 0;
+    display: flex;
+    div:nth-child(1){
+        width: 70%;
+    }
+    div:nth-child(2){
+        background-color: aqua;
+        width: 30%;
+    }
+}
+
+.section_left{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    table{
+        width: 90%;
+        padding: 1.5rem;
+        tbody{
+            background-color: rgba(0,0,0,.5);
+            color: rgb(300,300,200);
+        }
+    }
+
+    td{
+        padding: .5rem;
+    }
+}
