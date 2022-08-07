@@ -1,0 +1,26 @@
+.section_left{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    table{
+        width: 90%;
+        padding: 1.5rem;
+        
+        @media only screen and (max-width: 1000px){
+            padding: 0;
+            width: 100%;
+        }
+        tbody{
+            background-color: rgba(0,0,0,.5);
+            color: rgb(300,300,200);
+        }
+    }
+
+    td{
+        padding: .5rem;
+        @media only screen and (max-width: 500px){
+            padding: 1rem;
+        }
+    }
+}
+

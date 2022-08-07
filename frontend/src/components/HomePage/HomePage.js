@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Main.scss';
-const Main = () => {
+import withHeadTeacher from '../withHeadTeacher/withHeadTeacher';
+import './HomePage.scss';
+const HomePage = () => {
     const [ initialData, setInitialData ] = useState()
     useEffect(() => {
         const url = "/school/head";
@@ -43,19 +44,8 @@ const Main = () => {
                 </div>
               </div>
             </div>
-            <div className='main_right'>
-              <div className='head_teacher'>
-                <div className='head_name'>
-                  <h3>প্রধান শিক্ষক</h3>
-                </div>
-                <figure>
-                  <img src='https://scontent.fdac149-1.fna.fbcdn.net/v/t1.6435-9/141520567_2787629741453307_4332944798078028503_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=iAX33-Q_FyMAX9qLzkT&_nc_ht=scontent.fdac149-1.fna&oh=00_AT-Y2RqNB9L3whtZKgr5N2GiPjRClns3tpdZBEJ9yWkOUA&oe=630ACFEF' alt = 'head-teacher' />
-                  <figcaption>{initialData?.data.head[0].name}</figcaption>
-                </figure>
-              </div>
-            </div>
         </div>
     );
 };
 
-export default Main;
+export default withHeadTeacher(HomePage);

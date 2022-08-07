@@ -1,6 +1,6 @@
 import React from 'react';
 import SlideShow from './SlideShow/SlideShow';
-import Main from './Main/Main';
+import Main from './HomePage/HomePage';
 const Home = () => {
     return (
         <div>
