@@ -3,7 +3,7 @@ import './Table.scss';
 const Table = () => {
     return (
         <div className='section_left'>
-                <table cellSpacing= '.3rem' cellPadding= '10px' border= '2px'>
+                <table cellSpacing= '0px' cellPadding= '10px' border= '1px'>
                     <thead style={{background:'violet'}}>
                         <tr>
                             <th colSpan= '4' style= {{textAlign:'center'}}> এক নজরে বিদ্যালয়ের পরিচিতি </th>

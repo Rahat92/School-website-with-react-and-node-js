@@ -4,13 +4,13 @@
     justify-content: flex-start;
     box-sizing: border-box;
     width: 100%;
-    padding-right: .6rem;
-
+    padding-right: .5rem;
+    border-left: .3px solid rgba(0, 0, 0, .2);
     h3{
-        color:rgba(0,100,200,.7);
-        background-color: rgba(100,150,300, .5);
+        background-color: rgba(0, 0, 0, .8);
+        color:white;
         margin: 0;
-        padding: .7rem;
+        padding: .3rem;
     }
     figure{
         display: flex;
@@ -18,7 +18,13 @@
         margin: 0;
         padding: 0;
         img{
-            width: 100%;
+            width: 75%;
+            margin-top: .5rem;
+            align-self: center;
+        }
+        figcaption{
+            align-self: center;
+            padding: .5rem;
         }
     }
 }

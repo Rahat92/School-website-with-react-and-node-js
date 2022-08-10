@@ -1,52 +1,3 @@
-// .slide-div{
-//     display: flex;
-//     justify-content: center;
-//     height: 60vh;
-//     align-items: center;
-//     .img-box{
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         background-color: red;
-//         .image-div{
-//             position: absolute;
-//         }
-//     }
-//     .left{
-//         position: absolute;
-//         left: 0;
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         svg{
-//             width: 30px;
-//             height: 30px;
-//             background-color: green;
-//             color: white;
-//         }
-//     }
-//     .right{
-//         position: absolute;
-//         right: 0;
-//         svg{
-//             width: 30px;
-//             height: 30px;
-//             background-color: green;
-//             color: white;
-//         }
-//     }
-//     .dot{
-//         width: 20px;
-//         height: 20px;
-//         background: #000;
-//         border-radius: 50%;
-//         position: absolute;
-//         bottom: 0;
-//     }
-// }
-
-
-
 .slide_div{
     width: 100%;
     height: 40vh;
@@ -56,6 +7,10 @@
     align-items: center;
     overflow: hidden;
     position: relative;
+    padding: 1rem;
+    margin-top: 1rem;
+    padding-top: 3rem;
+    box-sizing: border-box;
     @media only screen and (max-width: 600px){
         height: 40vh;
     }

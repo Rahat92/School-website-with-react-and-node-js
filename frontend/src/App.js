@@ -6,6 +6,7 @@ import Home from './components/Home';
 import AboutSchool from './components/AboutSchool/AboutSchool';
 import SlideShow from './components/SlideShow/SlideShow';
 import AdminPanel from './components/AdminPanel/AdminPanel';
+
 function App() {
   return (
     <Router>

@@ -13,8 +13,8 @@ const NavigationBar = () => {
                     <li><Link style={{textDecoration:'none'}} to = '/'>প্রথম পাতা</Link></li>
                     <li><Link style={{textDecoration:'none'}} to = '/about-school'>স্কুল পরিচিতি</Link></li>
                     <li><Link style={{textDecoration:'none'}} to = '/about-school'>শিক্ষক-শিক্ষিকা</Link></li>
-                    <li>home</li>
-                    <li>home</li>
+                    <li><Link style={{textDecoration:'none'}} to = '/about-school'>শিক্ষক-শিক্ষিকা</Link></li>
+                    <li><Link style={{textDecoration:'none'}} to = '/about-school'>শিক্ষক-শিক্ষিকা</Link></li>
                 </ul>
             </div>
            <div className='navigationBar__div'>
