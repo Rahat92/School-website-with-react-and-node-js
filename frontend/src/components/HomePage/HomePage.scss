@@ -1,20 +1,15 @@
 .main{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    .main_left{
+    .main_content{
         display: flex;
-        justify-content: stretch;
-        padding: 1rem;
-        // border: 1px solid rgba(0, 0, 0, .5);
-        
+        justify-content: stretch;        
         .top_news{
-            
             padding-bottom: 2rem;
             display: flex;
             // border-bottom: 1px solid black;
             width: 100%;
             align-self: flex-start;
-            box-shadow: 0px .5px 5px rgba(0,0,0,.5);
+            // box-shadow: 0px .5px 5px rgba(0,0,0,.5);
+            border: .3px solid rgba(0, 0, 0, .2);
             position: relative;
             .more{
                 position: absolute;

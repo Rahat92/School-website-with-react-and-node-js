@@ -1,15 +1,8 @@
 .section_left{
-    display: flex;
-    background-color: antiquewhite;
-    justify-content: center;
+    width: 100%;
     table{
-        width: 90%;
-        padding: 1.5rem;
-        
-        @media only screen and (max-width: 1000px){
-            padding: 0;
-            width: 100%;
-        }
+        width: 100%;
+        box-sizing: border-box;
         tbody{
             background-color: rgba(0,0,0,.5);
             color: rgb(300,300,200);

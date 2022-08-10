@@ -30,7 +30,7 @@ const HomePage = () => {
                     <figcaption>{initialData?.data.head[0].name}</figcaption>
                 </figure>
             </div> */}
-            <div className='main_left'>
+            <div className='main_content'>
               <div className='top_news'>
                 <div className='more'>
                   <Link to = '/more'>সকল</Link>

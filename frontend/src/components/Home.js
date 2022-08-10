@@ -1,10 +1,9 @@
 import React from 'react';
-import SlideShow from './SlideShow/SlideShow';
-import Main from './HomePage/HomePage';
+import HomePage from './HomePage/HomePage';
 const Home = () => {
     return (
         <div>
-            <Main />
+            <HomePage />
         </div>
     );
 };
