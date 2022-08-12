@@ -10,7 +10,7 @@ const CommonServiceDiv = ({headLine,listText,services}) => {
                     <td>
                         <ul>
                             {services.map(el =>(
-                                <li><FiChevronRight/><Link style={{textDecoration:'none'}} to = '/'>{el}</Link></li>
+                                <li><FiChevronRight/><Link style={{textDecoration:'none'}} to = {el.src}>{el.title}</Link></li>
                             ))}
                         </ul>
                     </td>
