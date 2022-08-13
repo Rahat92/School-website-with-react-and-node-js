@@ -5,7 +5,7 @@ const AppError = require('./utils/AppError');
 app.use(express.json());
 app.use('/api/v1/admin',userRoutes );
 app.all('*',(req,res,next) => {
-    return next(new AppError(`cann't found : ${req.originalUrl}`,404,'fail'))
+    return next(new AppError(`cann't found : ${req.originalUrl}`,404))
 })
 
 app.use((err,req,res,next) => {

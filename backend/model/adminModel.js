@@ -10,7 +10,7 @@ const adminSchema = new mongoose.Schema({
         type: String,
         reqruied: [true, 'You must have to provide a email'],
         unique: true,
-        validator: [validator.isEmail , 'Please Enter valid email address']
+        validate: [validator.isEmail, 'Please Enter valid email address']
     },
     password:{
         type: String,
